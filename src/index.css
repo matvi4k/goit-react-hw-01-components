@@ -13,3 +13,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.avatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.stats{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+.status {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status.online {
+  background-color: green;
+}
+
+.status.offline {
+  background-color: gray;
+}
